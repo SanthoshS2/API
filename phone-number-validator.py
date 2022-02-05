@@ -13,7 +13,7 @@ def printResult(phone_number_info):
   print("Phone Number Details for ", phone_number_info["phone"])
   print("Phone Valid: ", phone_number_info["phone_valid"])
   if(phone_number_info["phone_type"]!="unknown"):
-    print("Phone Type: ", phone_number_info["phone_valid"])
+    print("Phone Type: ", phone_number_info["phone_type"])
   if(phone_number_info["phone_region"]!=""):
     print("Phone Region: ", phone_number_info["phone_region"])
   print("Phone Country: ", phone_number_info["country"])
