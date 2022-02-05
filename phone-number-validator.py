@@ -3,7 +3,7 @@ import json
 import sys
 
 url = "https://veriphone.p.rapidapi.com/verify"
-querystring = []
+querystring = {}
 headers = {
     'x-rapidapi-host': "veriphone.p.rapidapi.com",
     'x-rapidapi-key': "578b771870mshea19d8ae701033fp1db6d1jsnc270e20be7bf"
